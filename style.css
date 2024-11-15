@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    background: url('b.avif') no-repeat center center/cover;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+    background: url('b.avif') no-repeat center center/cover;
+}
+
+/* Centered Logo */
+.center-logo {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 3em;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.primary-btn {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+body.dark-theme .primary-btn {
+    background-color: #0056b3;
+}
+
+.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+body.dark-theme .primary-btn:hover {
+    background-color: #003f7f;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
