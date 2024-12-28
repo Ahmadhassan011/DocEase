@@ -2,6 +2,4 @@
 
 Effortless writing, seamless collaboration.
 
-## Visit Our Website
-
-[DocEase](https://ahmadhassan011.github.io/DocEase/)
+## Visit Here [DocEase](https://ahmadhassan011.github.io/DocEase/)
