@@ -57,7 +57,7 @@ ul {
 
 /* Header (Navigation Bar) */
 .navbar {
-    background-color: #343A40;
+    background-color: #f3f6f9;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
