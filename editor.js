@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             toolbar: '#toolbar'
         },
         theme: 'snow'
-        
     });
 
     const renderDocList = () => {
